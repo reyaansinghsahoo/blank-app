@@ -8,7 +8,7 @@ st.title("this is a pop quiz for 7 and over.")
 
 n1 =np.random.randint(low = 0,high = 9)
 n2=np.random.randint(low=0,high=9)
-s=n1*n2
+s=n1+n2
 st.write("first number is ",n1)
 st.write("seconde number is",n2)
 st.write("the sum is", s)
