@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("reyaans first app")
+st.write("reyaan is the best coder.
 st.write(
     "this is my first app i will make a calculator"
 )
