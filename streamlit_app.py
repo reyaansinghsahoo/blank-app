@@ -1,5 +1,8 @@
 import streamlit as st
 
+
+
+st.divider()
 st.title("reyaans first app")
           
 st.write("this is my first app i will make a calculator")
@@ -14,6 +17,7 @@ st.write("the product is")
 st.write(number1*number2)
 st.write("the difference is")
 st.write(number1-number2)
+
 
 
 
