@@ -12,6 +12,7 @@ def check_answer(a,s):
     st.write(" YOU GET A RED CAAAAAAAAARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRD")
 
 st.title("This is a maths Sats test")
+st.write("Your next question is:")
 n1=np.random.randint(low=0,high=9)
 n2=np.random.randint(low=0,high=9)
 s=n1+n2
