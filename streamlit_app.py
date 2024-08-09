@@ -5,16 +5,10 @@ if st.button("Refresh"):
   st.cache_resource.clear()
   st.rerun()
 
-def check_answer(a,s):
-  if a==s:
-    st.write( " YAY YOU ARE CORRRRRRRREEEEEECCCCCCTTTTTTTTTTTTTTTTTT")
-  else:
-    st.write(" YOU GET A RED CAAAAAAAAARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRD")
-
 st.title("This is a maths Sats test")
 st.write("Your next question is:")
-n1=np.random.randint(low=0,high=9)
-n2=np.random.randint(low=0,high=9)
+n1=np.random.randint(low=20,high=30)
+n2=np.random.randint(low=50,high=100)
 s=n1+n2
 
 if 'answer' not in st.session_state:
