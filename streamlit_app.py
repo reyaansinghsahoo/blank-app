@@ -6,7 +6,7 @@ if st.button("Refresh"):
   st.rerun()
 
 st.title("This is a maths Sats test")
-st.write("Your next question is:")
+st.write("please enter you answer here")
 n1=np.random.randint(low=20,high=30)
 n2=np.random.randint(low=50,high=100)
 s=n1+n2
